@@ -15,7 +15,7 @@ This project implements an innovative approach to financial fraud detection by c
 | Baseline VAE | PaySim | 0.5989 | - |
 | **Transformer + VAE** | PaySim | **0.7921** | **+32.3%** |
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Deep Learning**: PyTorch, Transformer Networks, Variational Autoencoders
 - **Data Processing**: Pandas, NumPy, Scikit-learn
@@ -23,8 +23,7 @@ This project implements an innovative approach to financial fraud detection by c
 
 ## Files
 
-- `PaySim_Fraud_Detection_Transformer_VAE.ipynb` - Complete implementation with results
-- `requirements.txt` - Required Python packages
+- `PaySim_Model.ipynb` - Complete implementation with results
 
 ## Methodology
 
@@ -40,6 +39,19 @@ This project implements an innovative approach to financial fraud detection by c
 - **Clear error separation**: 14x difference between normal and fraud reconstruction errors
 - **Robust performance** on extremely imbalanced data (0.17% fraud rate)
 
-## Academic & Professional Impact
+## Development Status
 
-This work demonstrates **novel individual transaction processing** with transformers, showing significant performance improvements over traditional VAE approaches. The methodology is suitable for both **practical deployment** and **research publication**.
+**Current Phase**: Proof of Concept Complete ✅  
+**Next Phase**: Real-world Dataset Validation (IEEE) 🔄  
+**Future**: Research Publication and Advanced Ensemble Methods 📊
+
+*This repository demonstrates core concepts and achieved results. Full methodology and advanced implementations are under active development for potential academic publication.*
+
+## Research & IP Notice
+
+This work represents ongoing research in transformer-enhanced fraud detection. The demonstrated approach shows **novel applications of individual transaction processing** with significant performance improvements (32% ROC AUC improvement).
+
+**For Academic Collaboration or Research Inquiries**: dharinisharma.la@gmail.com
+**Citation**: If you use concepts from this work, please reference this repository and contact for proper attribution.
+
+*Core algorithmic innovations are being prepared for academic publication.*
